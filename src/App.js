@@ -10,7 +10,6 @@ import Navbar from './components/navbar/navbar';
 const App = () => {
   const [data, setData] = useState({});
   const [countries, setCountries] = useState("");
-  console.log("countries", countries);
 
   useEffect(() => {
     const fetchApi = async () => {
